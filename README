@@ -1,0 +1,10 @@
+Usage:
+
+Windows:
+raytracer.exe < settings.txt > image.ppm
+
+Linux:
+./raytracer < settings.txt > image.ppm
+
+the output is in PPM format, because it is a very easy and straightforward format.
+The standard Windows image viewer can't open it, but GIMP can.

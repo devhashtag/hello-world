@@ -1,0 +1,16 @@
+1500 													de breedte van het plaatje in pixels (moet een even getal zijn)
+1000													de hoogte van het plaatje in pixels
+0.8														de FOV (Field of View), deze is het best op 0.8
+0														de ambient lichtwaarde (standaard belichting, ook als er geen licht bronnen zijn)
+0,0,0 1,0,0												de positie en richting van de camera, respectievelijk
+0,0,0													de achtergrondkleur in RGB 
+2														aantal driehoeken die op de volgende regels komen te staan
+0.9,-1.1,-1 500,-600,-1 0.9,1.1,-1 255,255,255 32		driehoek, bestaat uit: punt1, punt2, punt3, kleur, lichtweerkaatsing (hoe hoger, hoe kleiner de lichtreflectie (specular lighting), deze is het best om boven de 4 te houden)
+0.9,1.1,-1 500,-600,-1 500,600,-1 255,255,255 32		de andere driehoek
+2														aantal bollen die op de volgende regels komen te staan
+4,-1.2,0 0.75 66,170,244 16								bol, bestaat uit: positie, radius, kleur, lichtweerkaatsing
+4,1.3,0 1 50,200,50 32									de andere bol
+2														aantal lichtbronnen
+4,3,0.5													eerste lichtbron, bestaat alleen uit een positie
+2,-3,0.5												tweede lichtbron
+END 													deze regel is nodig om de file te sluiten
